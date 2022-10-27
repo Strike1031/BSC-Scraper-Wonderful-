@@ -1,0 +1,23 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon -e js,css,html,json,ejs app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.1",
+    "fs": "^0.0.1-security",
+    "mongoose": "^6.5.1",
+    "node-fetch": "^3.2.10",
+    "nodemon": "^2.0.19",
+    "socket.io": "^4.5.2",
+    "util": "^0.12.4",
+    "web3": "^1.7.5"
+  }
+}

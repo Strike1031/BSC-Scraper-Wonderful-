@@ -1,0 +1,895 @@
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'txController.js',
+  function: 'saveTX',
+  error: Error: TX validation failed: symbol0: Path `symbol0` is required.
+      at ValidationError.inspect (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongoose\lib\error\validation.js:48:26)
+      at formatValue (node:internal/util/inspect:763:19)
+      at formatProperty (node:internal/util/inspect:1681:11)
+      at formatRaw (node:internal/util/inspect:1006:9)
+      at formatValue (node:internal/util/inspect:793:10)
+      at inspect (node:internal/util/inspect:340:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+      at Object.format (node:internal/util/inspect:1880:10)
+      at errorHandler (file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/errorHandler.js:9:59)
+      at file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/controllers/txController.js:14:17
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongoose\lib\model.js:5092:18
+      at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+    errors: { symbol0: [ValidatorError] },
+    _message: 'TX validation failed'
+  }
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'Get token address',
+  error: Error: CONNECTION ERROR: Couldn't connect to node http://51.77.68.21:8545.
+      at Object.ConnectionError (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:66:23)
+      at Object.InvalidConnection (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:36:21)
+      at HttpProvider.failed (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:136:25)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'Get token address',
+  error: Error: CONNECTION ERROR: Couldn't connect to node http://51.77.68.21:8545.
+      at Object.ConnectionError (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:66:23)
+      at Object.InvalidConnection (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:36:21)
+      at HttpProvider.failed (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:136:25)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getDecimals',
+  error: Error: CONNECTION ERROR: Couldn't connect to node http://51.77.68.21:8545.
+      at Object.ConnectionError (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:66:23)
+      at Object.InvalidConnection (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:36:21)
+      at HttpProvider.failed (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:136:25)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getDecimals',
+  error: Error: CONNECTION ERROR: Couldn't connect to node http://51.77.68.21:8545.
+      at Object.ConnectionError (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:66:23)
+      at Object.InvalidConnection (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:36:21)
+      at HttpProvider.failed (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:136:25)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'txController.js',
+  function: 'saveTX',
+  error: Error: TX validation failed: timestamp: Path `timestamp` is required.
+      at ValidationError.inspect (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongoose\lib\error\validation.js:48:26)
+      at formatValue (node:internal/util/inspect:763:19)
+      at formatProperty (node:internal/util/inspect:1681:11)
+      at formatRaw (node:internal/util/inspect:1006:9)
+      at formatValue (node:internal/util/inspect:793:10)
+      at inspect (node:internal/util/inspect:340:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+      at Object.format (node:internal/util/inspect:1880:10)
+      at errorHandler (file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/errorHandler.js:9:59)
+      at file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/controllers/txController.js:14:17
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongoose\lib\model.js:5092:18
+      at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+    errors: { timestamp: [ValidatorError] },
+    _message: 'TX validation failed'
+  }
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'txController.js',
+  function: 'saveTX',
+  error: Error: TX validation failed: timestamp: Path `timestamp` is required.
+      at ValidationError.inspect (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongoose\lib\error\validation.js:48:26)
+      at formatValue (node:internal/util/inspect:763:19)
+      at formatProperty (node:internal/util/inspect:1681:11)
+      at formatRaw (node:internal/util/inspect:1006:9)
+      at formatValue (node:internal/util/inspect:793:10)
+      at inspect (node:internal/util/inspect:340:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+      at Object.format (node:internal/util/inspect:1880:10)
+      at errorHandler (file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/errorHandler.js:9:59)
+      at file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/controllers/txController.js:14:17
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongoose\lib\model.js:5092:18
+      at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+    errors: { timestamp: [ValidatorError] },
+    _message: 'TX validation failed'
+  }
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getDecimals',
+  error: Error: CONNECTION ERROR: Couldn't connect to node http://51.77.68.21:8545.
+      at Object.ConnectionError (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:66:23)
+      at Object.InvalidConnection (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:36:21)
+      at HttpProvider.failed (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:136:25)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getDecimals',
+  error: Error: CONNECTION ERROR: Couldn't connect to node http://51.77.68.21:8545.
+      at Object.ConnectionError (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:66:23)
+      at Object.InvalidConnection (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:36:21)
+      at HttpProvider.failed (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:136:25)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getDecimals',
+  error: Error: CONNECTION ERROR: Couldn't connect to node http://51.77.68.21:8545.
+      at Object.ConnectionError (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:66:23)
+      at Object.InvalidConnection (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:36:21)
+      at HttpProvider.failed (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:136:25)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getDecimals',
+  error: Error: CONNECTION ERROR: Couldn't connect to node http://51.77.68.21:8545.
+      at Object.ConnectionError (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:66:23)
+      at Object.InvalidConnection (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:36:21)
+      at HttpProvider.failed (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:136:25)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getDecimals',
+  error: Error: CONNECTION ERROR: Couldn't connect to node http://51.77.68.21:8545.
+      at Object.ConnectionError (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:66:23)
+      at Object.InvalidConnection (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:36:21)
+      at HttpProvider.failed (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:136:25)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'txController.js',
+  function: 'saveTX',
+  error: Error: TX validation failed: symbol1: Path `symbol1` is required.
+      at ValidationError.inspect (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongoose\lib\error\validation.js:48:26)
+      at formatValue (node:internal/util/inspect:763:19)
+      at formatProperty (node:internal/util/inspect:1681:11)
+      at formatRaw (node:internal/util/inspect:1006:9)
+      at formatValue (node:internal/util/inspect:793:10)
+      at inspect (node:internal/util/inspect:340:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+      at Object.format (node:internal/util/inspect:1880:10)
+      at errorHandler (file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/errorHandler.js:9:59)
+      at file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/controllers/txController.js:14:17
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongoose\lib\model.js:5092:18
+      at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+    errors: { symbol1: [ValidatorError] },
+    _message: 'TX validation failed'
+  }
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSymbol',
+  error: Error: CONNECTION ERROR: Couldn't connect to node http://51.77.68.21:8545.
+      at Object.ConnectionError (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:66:23)
+      at Object.InvalidConnection (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:36:21)
+      at HttpProvider.failed (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:136:25)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSymbol',
+  error: Error: CONNECTION ERROR: Couldn't connect to node http://51.77.68.21:8545.
+      at Object.ConnectionError (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:66:23)
+      at Object.InvalidConnection (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:36:21)
+      at HttpProvider.failed (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:136:25)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'txController.js',
+  function: 'saveTX',
+  error: Error: TX validation failed: symbol1: Path `symbol1` is required.
+      at ValidationError.inspect (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongoose\lib\error\validation.js:48:26)
+      at formatValue (node:internal/util/inspect:763:19)
+      at formatProperty (node:internal/util/inspect:1681:11)
+      at formatRaw (node:internal/util/inspect:1006:9)
+      at formatValue (node:internal/util/inspect:793:10)
+      at inspect (node:internal/util/inspect:340:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+      at Object.format (node:internal/util/inspect:1880:10)
+      at errorHandler (file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/errorHandler.js:9:59)
+      at file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/controllers/txController.js:14:17
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongoose\lib\model.js:5092:18
+      at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+    errors: { symbol1: [ValidatorError] },
+    _message: 'TX validation failed'
+  }
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSymbol',
+  error: Error: CONNECTION ERROR: Couldn't connect to node http://51.77.68.21:8545.
+      at Object.ConnectionError (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:66:23)
+      at Object.InvalidConnection (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:36:21)
+      at HttpProvider.failed (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:136:25)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'txController.js',
+  function: 'saveTX',
+  error: Error: TX validation failed: symbol1: Path `symbol1` is required.
+      at ValidationError.inspect (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongoose\lib\error\validation.js:48:26)
+      at formatValue (node:internal/util/inspect:763:19)
+      at formatProperty (node:internal/util/inspect:1681:11)
+      at formatRaw (node:internal/util/inspect:1006:9)
+      at formatValue (node:internal/util/inspect:793:10)
+      at inspect (node:internal/util/inspect:340:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+      at Object.format (node:internal/util/inspect:1880:10)
+      at errorHandler (file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/errorHandler.js:9:59)
+      at file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/controllers/txController.js:14:17
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongoose\lib\model.js:5092:18
+      at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+    errors: { symbol1: [ValidatorError] },
+    _message: 'TX validation failed'
+  }
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'txController.js',
+  function: 'saveTX',
+  error: Error: TX validation failed: symbol1: Path `symbol1` is required.
+      at ValidationError.inspect (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongoose\lib\error\validation.js:48:26)
+      at formatValue (node:internal/util/inspect:763:19)
+      at formatProperty (node:internal/util/inspect:1681:11)
+      at formatRaw (node:internal/util/inspect:1006:9)
+      at formatValue (node:internal/util/inspect:793:10)
+      at inspect (node:internal/util/inspect:340:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+      at Object.format (node:internal/util/inspect:1880:10)
+      at errorHandler (file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/errorHandler.js:9:59)
+      at file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/controllers/txController.js:14:17
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongoose\lib\model.js:5092:18
+      at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+    errors: { symbol1: [ValidatorError] },
+    _message: 'TX validation failed'
+  }
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSymbol',
+  error: Error: CONNECTION ERROR: Couldn't connect to node http://51.77.68.21:8545.
+      at Object.ConnectionError (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:66:23)
+      at Object.InvalidConnection (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:36:21)
+      at HttpProvider.failed (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:136:25)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSymbol',
+  error: Error: CONNECTION ERROR: Couldn't connect to node http://51.77.68.21:8545.
+      at Object.ConnectionError (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:66:23)
+      at Object.InvalidConnection (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:36:21)
+      at HttpProvider.failed (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:136:25)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'txController.js',
+  function: 'saveTX',
+  error: Error: TX validation failed: symbol1: Path `symbol1` is required.
+      at ValidationError.inspect (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongoose\lib\error\validation.js:48:26)
+      at formatValue (node:internal/util/inspect:763:19)
+      at formatProperty (node:internal/util/inspect:1681:11)
+      at formatRaw (node:internal/util/inspect:1006:9)
+      at formatValue (node:internal/util/inspect:793:10)
+      at inspect (node:internal/util/inspect:340:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+      at Object.format (node:internal/util/inspect:1880:10)
+      at errorHandler (file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/errorHandler.js:9:59)
+      at file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/controllers/txController.js:14:17
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongoose\lib\model.js:5092:18
+      at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+    errors: { symbol1: [ValidatorError] },
+    _message: 'TX validation failed'
+  }
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSymbol',
+  error: Error: CONNECTION ERROR: Couldn't connect to node http://51.77.68.21:8545.
+      at Object.ConnectionError (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:66:23)
+      at Object.InvalidConnection (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:36:21)
+      at HttpProvider.failed (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:136:25)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'txController.js',
+  function: 'saveTX',
+  error: Error: TX validation failed: symbol0: Path `symbol0` is required.
+      at ValidationError.inspect (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongoose\lib\error\validation.js:48:26)
+      at formatValue (node:internal/util/inspect:763:19)
+      at formatProperty (node:internal/util/inspect:1681:11)
+      at formatRaw (node:internal/util/inspect:1006:9)
+      at formatValue (node:internal/util/inspect:793:10)
+      at inspect (node:internal/util/inspect:340:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+      at Object.format (node:internal/util/inspect:1880:10)
+      at errorHandler (file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/errorHandler.js:9:59)
+      at file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/controllers/txController.js:14:17
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongoose\lib\model.js:5092:18
+      at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+    errors: { symbol0: [ValidatorError] },
+    _message: 'TX validation failed'
+  }
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getDecimals',
+  error: Error: CONNECTION ERROR: Couldn't connect to node http://51.77.68.21:8545.
+      at Object.ConnectionError (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:66:23)
+      at Object.InvalidConnection (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:36:21)
+      at HttpProvider.failed (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:136:25)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSymbol',
+  error: Error: CONNECTION ERROR: Couldn't connect to node http://51.77.68.21:8545.
+      at Object.ConnectionError (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:66:23)
+      at Object.InvalidConnection (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:36:21)
+      at HttpProvider.failed (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:136:25)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'txController.js',
+  function: 'saveTX',
+  error: Error: TX validation failed: symbol0: Path `symbol0` is required.
+      at ValidationError.inspect (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongoose\lib\error\validation.js:48:26)
+      at formatValue (node:internal/util/inspect:763:19)
+      at formatProperty (node:internal/util/inspect:1681:11)
+      at formatRaw (node:internal/util/inspect:1006:9)
+      at formatValue (node:internal/util/inspect:793:10)
+      at inspect (node:internal/util/inspect:340:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+      at Object.format (node:internal/util/inspect:1880:10)
+      at errorHandler (file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/errorHandler.js:9:59)
+      at file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/controllers/txController.js:14:17
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongoose\lib\model.js:5092:18
+      at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+    errors: { symbol0: [ValidatorError] },
+    _message: 'TX validation failed'
+  }
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'txController.js',
+  function: 'saveTX',
+  error: Error: TX validation failed: symbol0: Path `symbol0` is required.
+      at ValidationError.inspect (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongoose\lib\error\validation.js:48:26)
+      at formatValue (node:internal/util/inspect:763:19)
+      at formatProperty (node:internal/util/inspect:1681:11)
+      at formatRaw (node:internal/util/inspect:1006:9)
+      at formatValue (node:internal/util/inspect:793:10)
+      at inspect (node:internal/util/inspect:340:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+      at Object.format (node:internal/util/inspect:1880:10)
+      at errorHandler (file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/errorHandler.js:9:59)
+      at file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/controllers/txController.js:14:17
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongoose\lib\model.js:5092:18
+      at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+    errors: { symbol0: [ValidatorError] },
+    _message: 'TX validation failed'
+  }
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'txController.js',
+  function: 'saveTX',
+  error: Error: TX validation failed: symbol0: Path `symbol0` is required.
+      at ValidationError.inspect (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongoose\lib\error\validation.js:48:26)
+      at formatValue (node:internal/util/inspect:763:19)
+      at formatProperty (node:internal/util/inspect:1681:11)
+      at formatRaw (node:internal/util/inspect:1006:9)
+      at formatValue (node:internal/util/inspect:793:10)
+      at inspect (node:internal/util/inspect:340:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+      at Object.format (node:internal/util/inspect:1880:10)
+      at errorHandler (file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/errorHandler.js:9:59)
+      at file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/controllers/txController.js:14:17
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongoose\lib\model.js:5092:18
+      at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+    errors: { symbol0: [ValidatorError] },
+    _message: 'TX validation failed'
+  }
+}
+ ---- 
+Tue Oct 18 2022 20:39:14 GMT+0700 (Western Indonesia Time): - {
+  file: 'txController.js',
+  function: 'saveTX',
+  error: Error: TX validation failed: symbol0: Path `symbol0` is required.
+      at ValidationError.inspect (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongoose\lib\error\validation.js:48:26)
+      at formatValue (node:internal/util/inspect:763:19)
+      at formatProperty (node:internal/util/inspect:1681:11)
+      at formatRaw (node:internal/util/inspect:1006:9)
+      at formatValue (node:internal/util/inspect:793:10)
+      at inspect (node:internal/util/inspect:340:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+      at Object.format (node:internal/util/inspect:1880:10)
+      at errorHandler (file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/errorHandler.js:9:59)
+      at file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/controllers/txController.js:14:17
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongoose\lib\model.js:5092:18
+      at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+    errors: { symbol0: [ValidatorError] },
+    _message: 'TX validation failed'
+  }
+}
+ ---- 
+Tue Oct 18 2022 21:01:17 GMT+0700 (Western Indonesia Time): - {
+  file: 'app.js',
+  function: 'aggregateChange',
+  error: TypeError: Cannot destructure property 'reserves0Close' of 'res[0]' as it is undefined.
+      at file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/app.js:183:16
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Tue Oct 18 2022 21:01:58 GMT+0700 (Western Indonesia Time): - {
+  file: 'app.js',
+  function: 'aggregateChange',
+  error: TypeError: Cannot destructure property 'reserves0Close' of 'res[0]' as it is undefined.
+      at file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/app.js:183:16
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Tue Oct 18 2022 21:02:09 GMT+0700 (Western Indonesia Time): - {
+  file: 'app.js',
+  function: 'aggregateChange',
+  error: TypeError: Cannot destructure property 'reserves0Close' of 'res[0]' as it is undefined.
+      at file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/app.js:184:16
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Tue Oct 18 2022 21:02:57 GMT+0700 (Western Indonesia Time): - {
+  file: 'app.js',
+  function: 'aggregateChange',
+  error: TypeError: Cannot destructure property 'reserves0Close' of 'res[0]' as it is undefined.
+      at file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/app.js:184:16
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Tue Oct 18 2022 21:11:01 GMT+0700 (Western Indonesia Time): - {
+  file: 'app.js',
+  function: 'aggregateChange',
+  error: MongoServerError: FieldPath field names may not start with '$'. Consider using $getField or $setField.
+      at Connection.onMessage (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongodb\lib\cmap\connection.js:207:30)
+      at MessageStream.<anonymous> (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongodb\lib\cmap\connection.js:60:60)
+      at MessageStream.emit (node:events:390:28)
+      at processIncomingData (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+      at MessageStream._write (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+      at writeOrBuffer (node:internal/streams/writable:389:12)
+      at _write (node:internal/streams/writable:330:10)
+      at MessageStream.Writable.write (node:internal/streams/writable:334:10)
+      at Socket.ondata (node:internal/streams/readable:754:22)
+      at Socket.emit (node:events:390:28)
+      at addChunk (node:internal/streams/readable:315:12)
+      at readableAddChunk (node:internal/streams/readable:289:9)
+      at Socket.Readable.push (node:internal/streams/readable:228:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:199:23) {
+    ok: 0,
+    code: 16410,
+    codeName: 'Location16410',
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+ ---- 
+Tue Oct 18 2022 21:16:32 GMT+0700 (Western Indonesia Time): - {
+  file: 'app.js',
+  function: 'aggregateChange',
+  error: ReferenceError: timeStart is not defined
+      at file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/app.js:221:24
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Tue Oct 18 2022 21:19:21 GMT+0700 (Western Indonesia Time): - {
+  file: 'app.js',
+  function: 'aggregateChange',
+  error: ReferenceError: restart is not defined
+      at file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/app.js:184:9
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Tue Oct 18 2022 21:31:30 GMT+0700 (Western Indonesia Time): - {
+  file: 'app.js',
+  function: 'aggregateChange',
+  error: ReferenceError: restart is not defined
+      at file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/app.js:185:9
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Wed Oct 19 2022 11:08:02 GMT+0700 (Western Indonesia Time): - {
+  file: 'app.js',
+  function: 'aggregateChange',
+  error: MongoServerError: a group specification must include an _id
+      at Connection.onMessage (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongodb\lib\cmap\connection.js:207:30)
+      at MessageStream.<anonymous> (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongodb\lib\cmap\connection.js:60:60)
+      at MessageStream.emit (node:events:390:28)
+      at processIncomingData (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+      at MessageStream._write (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+      at writeOrBuffer (node:internal/streams/writable:389:12)
+      at _write (node:internal/streams/writable:330:10)
+      at MessageStream.Writable.write (node:internal/streams/writable:334:10)
+      at Socket.ondata (node:internal/streams/readable:754:22)
+      at Socket.emit (node:events:390:28)
+      at addChunk (node:internal/streams/readable:315:12)
+      at readableAddChunk (node:internal/streams/readable:289:9)
+      at Socket.Readable.push (node:internal/streams/readable:228:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:199:23) {
+    ok: 0,
+    code: 15955,
+    codeName: 'Location15955',
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+ ---- 
+Wed Oct 19 2022 11:09:29 GMT+0700 (Western Indonesia Time): - {
+  file: 'app.js',
+  function: 'aggregateChange',
+  error: MongoServerError: PlanExecutor error during aggregation :: caused by :: $first's argument must be an array, but is string
+      at Connection.onMessage (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongodb\lib\cmap\connection.js:207:30)
+      at MessageStream.<anonymous> (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongodb\lib\cmap\connection.js:60:60)
+      at MessageStream.emit (node:events:390:28)
+      at processIncomingData (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+      at MessageStream._write (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+      at writeOrBuffer (node:internal/streams/writable:389:12)
+      at _write (node:internal/streams/writable:330:10)
+      at MessageStream.Writable.write (node:internal/streams/writable:334:10)
+      at Socket.ondata (node:internal/streams/readable:754:22)
+      at Socket.emit (node:events:390:28)
+      at addChunk (node:internal/streams/readable:315:12)
+      at readableAddChunk (node:internal/streams/readable:289:9)
+      at Socket.Readable.push (node:internal/streams/readable:228:10)
+      at TCP.onStreamRead (node:internal/stream_base_commons:199:23) {
+    ok: 0,
+    code: 28689,
+    codeName: 'Location28689',
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+ ---- 
+Wed Oct 19 2022 12:08:50 GMT+0700 (Western Indonesia Time): - {
+  file: 'app.js',
+  function: 'aggregateChange',
+  error: TypeError: rmSync.map is not a function
+      at file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/app.js:190:16
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Wed Oct 19 2022 12:25:00 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSupply',
+  error: Error: This contract object doesn't have address set yet, please set an address first.
+      at Object.ContractNoAddressDefinedError (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:122:16)
+      at Object._processExecuteArguments (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-eth-contract\lib\index.js:728:22)
+      at Object._executeMethod (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-eth-contract\lib\index.js:744:68)
+      at getSupply (file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/components/nodeRequests.js:81:61)
+      at file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/app.js:207:35
+      at Array.map (<anonymous>)
+      at file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/app.js:194:13
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Wed Oct 19 2022 12:25:00 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSupply',
+  error: Error: This contract object doesn't have address set yet, please set an address first.
+      at Object.ContractNoAddressDefinedError (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:122:16)
+      at Object._processExecuteArguments (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-eth-contract\lib\index.js:728:22)
+      at Object._executeMethod (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-eth-contract\lib\index.js:744:68)
+      at getSupply (file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/components/nodeRequests.js:81:61)
+      at file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/app.js:208:35
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Wed Oct 19 2022 12:25:00 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getDecimals',
+  error: Error: This contract object doesn't have address set yet, please set an address first.
+      at Object.ContractNoAddressDefinedError (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:122:16)
+      at Object._processExecuteArguments (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-eth-contract\lib\index.js:728:22)
+      at Object._executeMethod (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-eth-contract\lib\index.js:744:68)
+      at getDecimals (file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/components/nodeRequests.js:39:60)
+      at file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/app.js:211:36
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Wed Oct 19 2022 12:25:00 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getDecimals',
+  error: Error: This contract object doesn't have address set yet, please set an address first.
+      at Object.ContractNoAddressDefinedError (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:122:16)
+      at Object._processExecuteArguments (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-eth-contract\lib\index.js:728:22)
+      at Object._executeMethod (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-eth-contract\lib\index.js:744:68)
+      at getDecimals (file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/components/nodeRequests.js:39:60)
+      at file:///C:/Users/hp/Documents/Sv3n/Work/CoinCodex/BSC%20Scraper/app.js:210:36
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+ ---- 
+Wed Oct 19 2022 22:44:23 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSupply',
+  error: Error: Returned error: out of gas
+      at Object.ErrorResponse (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:28:19)
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-requestmanager\lib\index.js:300:36
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:124:13
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    data: null
+  }
+}
+ ---- 
+Wed Oct 19 2022 22:44:23 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSupply',
+  error: Error: Returned error: out of gas
+      at Object.ErrorResponse (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:28:19)
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-requestmanager\lib\index.js:300:36
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:124:13
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    data: null
+  }
+}
+ ---- 
+Wed Oct 19 2022 22:44:23 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSupply',
+  error: Error: Returned error: out of gas
+      at Object.ErrorResponse (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:28:19)
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-requestmanager\lib\index.js:300:36
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:124:13
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    data: null
+  }
+}
+ ---- 
+Wed Oct 19 2022 22:44:23 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSupply',
+  error: Error: Returned error: out of gas
+      at Object.ErrorResponse (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:28:19)
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-requestmanager\lib\index.js:300:36
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:124:13
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    data: null
+  }
+}
+ ---- 
+Wed Oct 19 2022 22:44:23 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSupply',
+  error: Error: Returned error: out of gas
+      at Object.ErrorResponse (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:28:19)
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-requestmanager\lib\index.js:300:36
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:124:13
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    data: null
+  }
+}
+ ---- 
+Wed Oct 19 2022 22:44:23 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSupply',
+  error: Error: Returned error: out of gas
+      at Object.ErrorResponse (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:28:19)
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-requestmanager\lib\index.js:300:36
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:124:13
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    data: null
+  }
+}
+ ---- 
+Wed Oct 19 2022 22:44:23 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSupply',
+  error: Error: Returned error: out of gas
+      at Object.ErrorResponse (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:28:19)
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-requestmanager\lib\index.js:300:36
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:124:13
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    data: null
+  }
+}
+ ---- 
+Wed Oct 19 2022 22:44:23 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSupply',
+  error: Error: Returned error: out of gas
+      at Object.ErrorResponse (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:28:19)
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-requestmanager\lib\index.js:300:36
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:124:13
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    data: null
+  }
+}
+ ---- 
+Wed Oct 19 2022 22:44:23 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSupply',
+  error: Error: Returned error: out of gas
+      at Object.ErrorResponse (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:28:19)
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-requestmanager\lib\index.js:300:36
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:124:13
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    data: null
+  }
+}
+ ---- 
+Wed Oct 19 2022 22:44:23 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSupply',
+  error: Error: Returned error: out of gas
+      at Object.ErrorResponse (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:28:19)
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-requestmanager\lib\index.js:300:36
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:124:13
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    data: null
+  }
+}
+ ---- 
+Wed Oct 19 2022 22:44:23 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSupply',
+  error: Error: Returned error: out of gas
+      at Object.ErrorResponse (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:28:19)
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-requestmanager\lib\index.js:300:36
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:124:13
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    data: null
+  }
+}
+ ---- 
+Wed Oct 19 2022 22:44:23 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSupply',
+  error: Error: Returned error: out of gas
+      at Object.ErrorResponse (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:28:19)
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-requestmanager\lib\index.js:300:36
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:124:13
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    data: null
+  }
+}
+ ---- 
+Wed Oct 19 2022 22:44:23 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSupply',
+  error: Error: Returned error: out of gas
+      at Object.ErrorResponse (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:28:19)
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-requestmanager\lib\index.js:300:36
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:124:13
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    data: null
+  }
+}
+ ---- 
+Wed Oct 19 2022 22:44:23 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSupply',
+  error: Error: Returned error: out of gas
+      at Object.ErrorResponse (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:28:19)
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-requestmanager\lib\index.js:300:36
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:124:13
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    data: null
+  }
+}
+ ---- 
+Wed Oct 19 2022 22:44:23 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSupply',
+  error: Error: Returned error: out of gas
+      at Object.ErrorResponse (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:28:19)
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-requestmanager\lib\index.js:300:36
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:124:13
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    data: null
+  }
+}
+ ---- 
+Wed Oct 19 2022 22:44:23 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSupply',
+  error: Error: Returned error: out of gas
+      at Object.ErrorResponse (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:28:19)
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-requestmanager\lib\index.js:300:36
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:124:13
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    data: null
+  }
+}
+ ---- 
+Wed Oct 19 2022 22:44:23 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSupply',
+  error: Error: Returned error: out of gas
+      at Object.ErrorResponse (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:28:19)
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-requestmanager\lib\index.js:300:36
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:124:13
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    data: null
+  }
+}
+ ---- 
+Wed Oct 19 2022 22:44:23 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSupply',
+  error: Error: Returned error: out of gas
+      at Object.ErrorResponse (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:28:19)
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-requestmanager\lib\index.js:300:36
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:124:13
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    data: null
+  }
+}
+ ---- 
+Wed Oct 19 2022 22:44:23 GMT+0700 (Western Indonesia Time): - {
+  file: 'nodeRequests.js',
+  function: 'getSupply',
+  error: Error: Returned error: out of gas
+      at Object.ErrorResponse (C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-helpers\lib\errors.js:28:19)
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-core-requestmanager\lib\index.js:300:36
+      at C:\Users\hp\Documents\Sv3n\Work\CoinCodex\BSC Scraper\node_modules\web3-providers-http\lib\index.js:124:13
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    data: null
+  }
+}
+ ---- 

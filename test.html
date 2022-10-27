@@ -1,0 +1,27 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Socket test</title>
+        <script src="https://cdn.socket.io/4.5.0/socket.io.min.js" integrity="sha384-7EyYLQZgWBi67fBtVxw60/OWl1kjsfrPFcaU0pp0nAh+i8FD068QogUvg85Ewy1k" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <script>
+            const socketURL = 'ws://localhost:4000'; // ws://dexnode01.coincodex.com:4000 // ws://localhost:4000
+            const socket = io(socketURL, {
+                autoConnect: false,
+                transports: ["websocket"]
+            });
+
+
+            socket.connect();
+            socket.on("connect", ()=>{
+                socket.emit("bsc");
+                
+                socket.on('change', (data)=>{
+                   console.log(data)
+                });
+            });
+        </script>
+    </body>
+</html>
